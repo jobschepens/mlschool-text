@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# --- Project Specific ---
+
+# Ignore large data and output directories
+# See README.md for instructions on which data files are needed locally.
+/data/
+/output/
+
+# Ignore specific large files and sensitive info
+large_corpus.txt
+generation_state.json
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pdf
+*.zip
+*.gz
+
+# Whitelist essential config and requirements files so they ARE tracked
+!scripts/config.json
+!scripts/semantic_config.json
+!requirements.txt

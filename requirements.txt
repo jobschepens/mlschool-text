@@ -1,0 +1,10 @@
+pandas
+openpyxl
+python-dotenv
+requests
+matplotlib
+seaborn
+numpy
+scikit-learn
+patsy
+jupyter
