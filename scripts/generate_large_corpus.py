@@ -5,6 +5,7 @@ import time
 import requests
 import pandas as pd
 from dotenv import load_dotenv
+from datetime import datetime
 
 # --- Configuration Loading ---
 def load_config(config_path='config.json'):
@@ -134,12 +135,12 @@ def check_budget_limit(state, config):
 
 # --- Prompt Engineering ---
 def get_diverse_prompts():
-    """Returns a list of diverse prompts for generation."""
+    """Returns a list of diverse prompts for generation that use seeds as inspiration."""
     return {
-        "Technical/Scientific": "Explain a complex scientific concept ({seed_words}) in a clear, accessible way.",
-        "News/Informative": "Write a short, informative news-style article that includes the following terms: {seed_words}.",
-        "Fiction/Creative": "Write a short, creative story that naturally incorporates these words: {seed_words}.",
-        "General Knowledge/How-To": "Write a 'how-to' guide or a general explanation on a topic, making sure to use the words: {seed_words}."
+        "Technical/Scientific": "Write a clear, accessible explanation of a scientific concept. Draw inspiration from themes related to: {seed_words}. Focus on making complex ideas understandable.",
+        "News/Informative": "Write a short, informative news-style article. Let the following concepts guide your topic choice: {seed_words}. Write naturally about current events or important information.",
+        "Fiction/Creative": "Write a short, engaging creative story. Use these concepts as thematic inspiration: {seed_words}. Let the story flow naturally without forcing specific words.",
+        "General Knowledge/How-To": "Write a helpful 'how-to' guide or educational explanation. Draw inspiration from these areas: {seed_words}. Focus on practical, useful information."
     }
 
 # --- Main Generation Logic ---
@@ -210,7 +211,26 @@ def main():
                     current_cost += request_cost
                     total_requests += 1
                     
-                    # 6. Append to file and update state
+                    # 6. Create story metadata
+                    story_metadata = {
+                        'story_id': f"story_{total_requests:04d}",
+                        'genre': genre,
+                        'seeds_used': selected_seeds,
+                        'seed_string': seed_str,
+                        'word_count': len(generated_text.split()),
+                        'character_count': len(generated_text),
+                        'timestamp': datetime.now().isoformat(),
+                        'prompt_used': final_prompt,
+                        'estimated_cost': request_cost
+                    }
+                    
+                    # Save story metadata
+                    if 'stories' not in state:
+                        state['stories'] = []
+                    state['stories'].append(story_metadata)
+                    
+                    # 7. Append to file with metadata header
+                    f.write(f"<!-- Story Metadata: {json.dumps(story_metadata, ensure_ascii=False)} -->\n")
                     f.write(generated_text + "\n\n")
                     num_new_words = len(generated_text.split())
                     current_words += num_new_words
@@ -218,6 +238,7 @@ def main():
                     
                     print(f"   ✅ Generated {num_new_words} words. Total: {current_words:,} / {target_words:,} ({current_words/target_words:.2%})")
                     print(f"   💰 Request cost: ${request_cost:.4f}, Total cost: ${current_cost:.4f}")
+                    print(f"   📝 Story ID: {story_metadata['story_id']}, Seeds: {seed_str}")
 
                 # 7. Save state periodically
                 if texts_generated_since_save >= config['texts_per_state_save']:
