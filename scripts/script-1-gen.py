@@ -6,6 +6,7 @@ import requests
 import pandas as pd
 from dotenv import load_dotenv
 from datetime import datetime
+import argparse
 
 # --- Configuration Loading ---
 def load_config(config_path='config.json'):
@@ -42,24 +43,6 @@ def save_state(state, state_path):
     """Saves the current generation state."""
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
-
-# --- Data Loading ---
-def load_seed_words(ecp_path):
-    """Loads the word list from the ECP data file for seeding prompts."""
-    print(f"Loading seed words from {ecp_path}...")
-    try:
-        # Read from CSV instead of Excel
-        df = pd.read_csv(ecp_path)
-        # Use 'spelling' column instead of 'Word'
-        words = df['spelling'].dropna().astype(str).tolist()
-        print(f"✅ Loaded {len(words):,} unique words for seeding.")
-        return words
-    except FileNotFoundError:
-        print(f"❌ Error: ECP word list not found at '{ecp_path}'.")
-        return []
-    except Exception as e:
-        print(f"❌ Error loading ECP file: {e}")
-        return []
 
 # --- LLM Interaction ---
 def generate_text(api_config, prompt, max_retries=3, retry_delay=5):
@@ -133,6 +116,24 @@ def check_budget_limit(state, config):
     print(f"💰 Budget status: ${current_cost:.4f} spent, ${remaining:.4f} remaining")
     return False
 
+# --- Data Loading ---
+def load_seed_words(ecp_path):
+    """Loads the word list from the ECP data file for seeding prompts."""
+    print(f"Loading seed words from {ecp_path}...")
+    try:
+        # Read from CSV instead of Excel
+        df = pd.read_csv(ecp_path)
+        # Use 'spelling' column instead of 'Word'
+        words = df['spelling'].dropna().astype(str).tolist()
+        print(f"✅ Loaded {len(words):,} unique words for seeding.")
+        return words
+    except FileNotFoundError:
+        print(f"❌ Error: ECP word list not found at '{ecp_path}'.")
+        return []
+    except Exception as e:
+        print(f"❌ Error loading ECP file: {e}")
+        return []
+
 # --- Prompt Engineering ---
 def get_diverse_prompts():
     """Returns a list of diverse prompts for generation that use seeds as inspiration."""
@@ -143,20 +144,44 @@ def get_diverse_prompts():
         "General Knowledge/How-To": "Write a helpful 'how-to' guide or educational explanation. Draw inspiration from these areas: {seed_words}. Focus on practical, useful information."
     }
 
+def get_general_prompts():
+    """Returns a list of diverse, self-contained prompts for generation."""
+    return {
+        "Technical/Scientific": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+        "News/Informative": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+        "Fiction/Creative": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+        "General Knowledge/How-To": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions."
+    }
+
 # --- Main Generation Logic ---
-def main():
+def main(config_path):
     """Main function to run the large-scale corpus generation."""
     # Load environment variables from .env file
     load_dotenv()
     
-    config = load_config()
-    state = load_state(config['state_file_path'])
-    seed_words = load_seed_words(config['ecp_word_list_path'])
-    prompts = get_diverse_prompts()
+    config = load_config(config_path)
     
-    if not seed_words:
-        print("Cannot proceed without seed words. Exiting.")
-        return
+    # --- Ensure output directory exists before proceeding ---
+    output_dir = os.path.dirname(config['output_corpus_path'])
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+        print(f"✅ Ensured output directory exists: {output_dir}")
+
+    state = load_state(config['state_file_path'])
+    
+    # --- Prompt and Seed Word Strategy ---
+    use_seeds = config.get('use_seed_words', False)
+    if use_seeds:
+        print("🌱 Using seed word strategy for prompt generation.")
+        seed_words = load_seed_words(config['ecp_word_list_path'])
+        prompts = get_diverse_prompts()
+        if not seed_words:
+            print("Cannot proceed with seed word strategy without seed words. Exiting.")
+            return
+    else:
+        print("📝 Using general prompt strategy.")
+        prompts = get_general_prompts()
+        seed_words = [] # Ensure it's an empty list if not used
 
     # Get API key from environment
     api_key = os.getenv("OPENROUTER_API_KEY")
@@ -193,14 +218,16 @@ def main():
                 # 1. Select a random prompt template
                 genre, prompt_template = random.choice(list(prompts.items()))
 
-                # 2. Select random seed words
-                selected_seeds = random.sample(seed_words, config['words_to_seed'])
-                seed_str = ", ".join(selected_seeds)
-
-                # 3. Construct the final prompt
-                final_prompt = prompt_template.format(seed_words=seed_str)
-                
-                print(f"-> Generating text for genre '{genre}' with seeds: {seed_str}")
+                # 2. Construct the final prompt based on strategy
+                if use_seeds:
+                    selected_seeds = random.sample(seed_words, config['words_to_seed'])
+                    seed_str = ", ".join(selected_seeds)
+                    final_prompt = prompt_template.format(seed_words=seed_str)
+                    print(f"-> Generating text for genre '{genre}' with seeds: {seed_str}")
+                else:
+                    final_prompt = prompt_template
+                    selected_seeds = [] # No seeds used
+                    print(f"-> Generating text for genre '{genre}'...")
 
                 # 4. Generate text
                 generated_text = generate_text(api_config, final_prompt)
@@ -216,7 +243,6 @@ def main():
                         'story_id': f"story_{total_requests:04d}",
                         'genre': genre,
                         'seeds_used': selected_seeds,
-                        'seed_string': seed_str,
                         'word_count': len(generated_text.split()),
                         'character_count': len(generated_text),
                         'timestamp': datetime.now().isoformat(),
@@ -238,7 +264,11 @@ def main():
                     
                     print(f"   ✅ Generated {num_new_words} words. Total: {current_words:,} / {target_words:,} ({current_words/target_words:.2%})")
                     print(f"   💰 Request cost: ${request_cost:.4f}, Total cost: ${current_cost:.4f}")
-                    print(f"   📝 Story ID: {story_metadata['story_id']}, Seeds: {seed_str}")
+                    
+                    if use_seeds:
+                        print(f"   📝 Story ID: {story_metadata['story_id']}, Seeds: {seed_str}")
+                    else:
+                        print(f"   📝 Story ID: {story_metadata['story_id']}")
 
                 # 7. Save state periodically
                 if texts_generated_since_save >= config['texts_per_state_save']:
@@ -274,4 +304,12 @@ def main():
         print(f"Final state saved to: {config['state_file_path']}")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Generate a large text corpus using an LLM.")
+    parser.add_argument(
+        '--config',
+        type=str,
+        default='config.json',
+        help='Path to the configuration file (e.g., config_2m_llama.json).'
+    )
+    args = parser.parse_args()
+    main(args.config)
