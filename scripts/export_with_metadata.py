@@ -217,7 +217,7 @@ def main():
     print("=" * 50)
     
     # Configuration
-    corpus_path = "../output/large_corpus.txt"
+    corpus_path = "../large_corpus.txt"
     output_dir = "../output/analyzed_corpus"
     
     if not os.path.exists(corpus_path):

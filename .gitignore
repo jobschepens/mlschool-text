@@ -51,6 +51,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# embeddings from fastText https://fasttext.cc/docs/en/english-vectors.html
+data\embeddings\wiki-news-300d-1M.vec
+
 # --- Project Specific ---
 
 # Ignore large data and output directories
