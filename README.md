@@ -2,20 +2,29 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jobschepens/mlschool-text/HEAD?labpath=notebooks)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jobschepens/mlschool-text/blob/main/)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/jobschepens/mlschool-text)
 
 ## Quick Start Options
 
-### Option 1: Google Colab (Recommended)
+### Option 1: GitHub Codespaces (Recommended for Full Development) 🚀
+Click the "Open in GitHub Codespaces" badge above for:
+- **Full VS Code environment** in your browser
+- **Pre-configured Python environment** with all dependencies
+- **Integrated terminal** and Git support
+- **Jupyter notebook support** built-in
+- **Free tier available** (60 hours/month for personal accounts)
+
+### Option 2: Google Colab (Recommended for Learning)
 Click the "Open in Colab" badge above, then:
 - Navigate to the `notebooks/` folder
 - Open either:
   - `notebook1_llm_generation.ipynb` - Generate linguistic predictors with LLMs
   - `notebook2_corpus_analysis.ipynb` - Analyze predictors vs. human reading data
 
-### Option 2: Binder
+### Option 3: Binder
 Click the "Binder" badge above for a ready-to-run environment (may take 2-3 minutes to load)
 
-### Option 3: Local Installation
+### Option 4: Local Installation
 ```bash
 git clone https://github.com/jobschepens/mlschool-text.git
 cd mlschool-text
