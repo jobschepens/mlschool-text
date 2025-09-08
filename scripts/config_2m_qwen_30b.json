@@ -1,0 +1,12 @@
+{
+    "model_name": "qwen/qwen3-30b-a3b-instruct-2507",
+    "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "target_word_count": 2000000,
+    "max_generation_cost": 5.00,
+    "use_seed_words": false,
+    "words_to_seed": 5,
+    "ecp_word_list_path": "../data/lexicaldecision/ecp/English Crowdsourcing Project All Native Speakers.csv",
+    "texts_per_state_save": 10,
+    "output_corpus_path": "output/large_corpus_2m_qwen.txt",
+    "state_file_path": "output/generation_state_2m_qwen.json"
+}

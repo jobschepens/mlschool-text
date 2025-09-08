@@ -1,0 +1,141 @@
+{
+  "models": [
+    {
+      "name": "Kimi K2 0905",
+      "id": "moonshotai/kimi-k2-0905",
+      "provider": "moonshotai",
+      "description": "Large-scale Mixture-of-Experts (MoE) language model featuring 1 trillion total parameters with 32 billion active per forward pass. Supports long-context inference up to 256k tokens. Optimized for agentic capabilities including advanced tool use, reasoning, and code synthesis.",
+      "context_length": 262144,
+      "pricing": {
+        "input_tokens": 0.60,
+        "output_tokens": 2.50,
+        "unit": "per_million_tokens"
+      },
+      "release_date": "2025-09-04",
+      "capabilities": ["coding", "reasoning", "tool_use"],
+      "benchmarks": ["LiveCodeBench", "SWE-bench", "ZebraLogic", "GPQA", "Tau2", "AceBench"],
+      "optimizer": "MuonClip",
+      "type": "MoE"
+    },
+    {
+      "name": "Grok Code Fast 1",
+      "id": "x-ai/grok-code-fast-1",
+      "provider": "xai",
+      "description": "Speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality workflows.",
+      "context_length": null,
+      "pricing": {
+        "input_tokens": 1.50,
+        "output_tokens": null,
+        "unit": "per_million_tokens",
+        "note": "Free for all Kilo Code users until September 10th"
+      },
+      "capabilities": ["agentic_coding", "reasoning_traces"],
+      "type": "reasoning"
+    },
+    {
+      "name": "Mercury Coder",
+      "id": "inception/mercury-coder",
+      "provider": "inception",
+      "description": "First diffusion large language model (dLLM) using a breakthrough discrete diffusion approach. Runs 5-10x faster than speed optimized models like Claude 3.5 Haiku and GPT-4o Mini while matching their performance.",
+      "context_length": 128000,
+      "pricing": {
+        "input_tokens": 0.25,
+        "output_tokens": 1.00,
+        "unit": "per_million_tokens"
+      },
+      "release_date": "2025-04-30",
+      "capabilities": ["coding", "fast_inference"],
+      "benchmarks": ["Copilot Arena (1st in speed, 2nd in quality)"],
+      "type": "dLLM"
+    },
+    {
+      "name": "Qwen3 Coder 480B A35B",
+      "id": "qwen/qwen3-coder",
+      "provider": "qwen",
+      "description": "Mixture-of-Experts (MoE) code generation model optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over repositories. Features 480 billion total parameters, with 35 billion active per forward pass (8 out of 160 experts).",
+      "context_length": 262144,
+      "pricing": {
+        "input_tokens": 0.20,
+        "output_tokens": 0.80,
+        "unit": "per_million_tokens"
+      },
+      "free_tier": {
+        "id": "qwen/qwen3-coder:free",
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "release_date": "2025-07-23",
+      "capabilities": ["function_calling", "tool_use", "long_context_reasoning"],
+      "type": "MoE"
+    },
+    {
+      "name": "Qwen3-30B-A3B-Instruct-2507",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": "nebius",
+      "provider_preference": ["nebius"],
+      "description": "30.5B-parameter mixture-of-experts language model operating in non-thinking mode. Designed for high-quality instruction following, multilingual understanding, and agentic tool use.",
+      "context_length": 262144,
+      "pricing": {
+        "input_tokens": 0.052,
+        "output_tokens": 0.207,
+        "unit": "per_million_tokens"
+      },
+      "release_date": "2025-07-29",
+      "capabilities": ["instruction_following", "multilingual", "tool_use"],
+      "benchmarks": ["AIME", "ZebraLogic", "MultiPL-E", "LiveCodeBench", "IFEval", "WritingBench"],
+      "type": "MoE"
+    },
+    {
+      "name": "Meta Llama 3.3 8B Instruct",
+      "id": "meta-llama/llama-3.3-8b-instruct",
+      "provider": "meta-llama",
+      "description": "Lightweight and ultra-fast variant of Llama 3.3 70B, for use when quick response times are needed most.",
+      "context_length": 128000,
+      "pricing": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "unit": "per_million_tokens"
+      },
+      "free_tier": {
+        "id": "meta-llama/llama-3.3-8b-instruct:free",
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "release_date": "2025-05-14",
+      "capabilities": ["fast_response"],
+      "type": "instruct"
+    },
+    {
+      "name": "DeepSeek-V3.1",
+      "id": "deepseek/deepseek-chat-v3.1",
+      "provider": "deepseek",
+      "description": "Large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. Uses FP8 microscaling for efficient inference.",
+      "context_length": 163840,
+      "pricing": {
+        "input_tokens": 0.20,
+        "output_tokens": 0.80,
+        "unit": "per_million_tokens"
+      },
+      "free_tier": {
+        "id": "deepseek/deepseek-chat-v3.1:free",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "context_length": 64000
+      },
+      "release_date": "2025-08-21",
+      "capabilities": ["reasoning", "tool_calling", "code_agents", "search_agents"],
+      "type": "hybrid_reasoning"
+    },
+    {
+      "name": "Gemini 2.5 Flash Image Preview",
+      "id": "google/gemini-2.5-flash-image-preview",
+      "provider": "google-ai-studio",
+      "description": "State of the art image generation model with contextual understanding. Capable of image generation, edits, and multi-turn conversations.",
+      "type": "image_generation"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-05",
+    "purpose": "Some interesting models"
+  }
+}

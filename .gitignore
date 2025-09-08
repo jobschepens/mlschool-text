@@ -56,24 +56,38 @@ data\embeddings\wiki-news-300d-1M.vec
 
 # --- Project Specific ---
 
-# Ignore large data and output directories
-# See README.md for instructions on which data files are needed locally.
-/data/
-/output/
+# Ignore large data directories but include the reference datasets needed for analysis
+/data/embeddings/
+/data/temp/
+
+# Include output files for sharing (commented out the exclusion)
+# /output/
 
 # Ignore specific large files and sensitive info
-large_corpus.txt
-generation_state.json
-*.csv
-*.xlsx
-*.xls
-*.json
-*.pkl
+# large_corpus.txt
+# generation_state.json
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+# *.pkl
 *.pdf
 *.zip
 *.gz
 
+# Always ignore temporary and state files that shouldn't be shared
+**/temp_*
+**/*_temp.*
+**/*_backup.*
+
 # Whitelist essential config and requirements files so they ARE tracked
-!scripts/config.json
+!scripts/config*.json
 !scripts/semantic_config.json
-!requirements.txt
+!requirements*.txt
+!environment.yml
+
+# Include key output files for sharing
+!output/generated_corpus_with_predictors.csv
+!output/large_corpus_*.txt
+!output/merged_predictors.csv
+!output/pilot.csv

@@ -1,10 +1,86 @@
-# LLM-Powered Psycholinguistics: Corpus Generation and Analysis
+# Summer School: Computational Psycholinguistics - Practical Session
 
-This project provides a framework for generating large-scale text corpora using Large Language Models (LLMs) and analyzing their linguistic properties. It is designed to support psycholinguistic research by creating controlled, high-quality datasets for studying word processing, frequency, and familiarity effects.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jobschepens/mlschool-text/HEAD?labpath=notebooks)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jobschepens/mlschool-text/blob/main/)
 
-The project is divided into two main components:
-1.  **A Practical Session for a Summer School**: Two Jupyter notebooks that guide participants through generating linguistic predictors with LLMs and validating them against human reading time data.
-2.  **A Scalable Corpus Generation Pipeline**: A standalone Python script for generating massive, contextually diverse text corpora for in-depth research.
+## Quick Start Options
+
+### Option 1: Google Colab (Recommended)
+Click the "Open in Colab" badge above, then:
+- Navigate to the `notebooks/` folder
+- Open either:
+  - `notebook1_llm_generation.ipynb` - Generate linguistic predictors with LLMs
+  - `notebook2_corpus_analysis.ipynb` - Analyze predictors vs. human reading data
+
+### Option 2: Binder
+Click the "Binder" badge above for a ready-to-run environment (may take 2-3 minutes to load)
+
+### Option 3: Local Installation
+```bash
+git clone https://github.com/jobschepens/mlschool-text.git
+cd mlschool-text
+pip install -r requirements.txt
+jupyter lab notebooks/
+```
+
+## About This Project
+
+This repository contains materials for a computational psycholinguistics summer school practical session, extending the research from Schepens et al. to English using LLM-generated linguistic predictors. It provides both interactive notebooks for learning and a scalable corpus generation pipeline for research.
+
+### Key Files
+- **Notebooks**: Interactive Jupyter notebooks in `notebooks/`
+- **Generated Data**: Pre-computed corpus and predictors in `output/` 
+- **Reference Data**: Psycholinguistic datasets in `data/`
+- **Scripts**: Standalone generation scripts in `scripts/`
+
+## Recommended Workflow
+
+Follow this step-by-step progression through the notebooks and scripts:
+
+### 1. **Start Here**: `notebook1_llm_generation.ipynb`
+- Introduction to LLM-based corpus generation
+- Learn the basic concepts and setup
+
+### 2. **Generate Large Corpus**: Choose one script
+- `script-1-gen.py` - Original approach with fixed genre prompts
+- `script-1-gen-dynamic.py` - New approach with infinite prompt variety (recommended)
+- Or create your own version using the provided templates
+- **Important**: Use an updated config file (e.g., `config_2m_llama.json`)
+
+### 3. **Quality Check** (Optional): `quick_check_corpus.ipynb`
+- Verify your generated corpus quality
+- Check word frequency distributions
+
+### 4. **Export Data** (Optional): `export_with_metadata.py`
+- Extract and format corpus data with metadata
+- Prepare data for analysis
+
+### 5. **Merge Data**: `notebook1b_merge.ipynb`
+- Combine multiple corpus sources
+- Create unified predictor datasets
+
+### 6. **Frequency Analysis** (Optional): `notebook1c_frequency_analysis.ipynb`
+- Deep dive into frequency calculations
+- Compare different frequency measures
+
+### 7. **Compare Transformations** (Optional): `notebook1d_comparetransformations.ipynb`
+- Analyze different data transformation approaches
+- Validate preprocessing steps
+
+### 8. **Final Analysis**: `notebook2_corpus_analysis.ipynb`
+- Validate predictors against human reading times
+- Load multiple psycholinguistic databases (ELP, BLP, ECP)
+- Compare LLM-derived vs. traditional frequency measures
+- Statistical analysis using restricted cubic splines
+
+## Data Availability
+
+All generated corpora and derived predictors are included in this repository for immediate use:
+- `output/generated_corpus_with_predictors.csv` - Main predictor file
+- `output/large_corpus_*.txt` - Generated text corpora
+- `data/` - Reference psycholinguistic datasets
+
+This allows you to run the analysis notebooks immediately without needing to generate new corpora (which can take hours and requires API keys).
 
 ## Project Structure
 
@@ -12,14 +88,16 @@ The project is organized into the following directories:
 
 ```
 .
-├── data/                 # For storing input data (e.g., seed words). (Not tracked by Git)
-├── notebooks/            # Jupyter notebooks for analysis and the practical session.
-├── output/               # For storing large generated files (e.g., corpora). (Not tracked by Git)
-├── scripts/              # Python scripts for corpus generation.
-├── .env                  # For storing API keys (e.g., OPENROUTER_API_KEY). (Not tracked by Git)
-├── .gitignore            # Specifies files and directories to be ignored by Git.
-├── README.md             # This file.
-└── requirements.txt      # Python dependencies for the project.
+├── data/                 # Reference psycholinguistic datasets
+├── notebooks/            # Interactive Jupyter notebooks for the practical session
+├── output/               # Pre-generated corpora and predictors (included for sharing)
+├── scripts/              # Python scripts for corpus generation
+├── .env                  # For storing API keys (create locally, not tracked by Git)
+├── .gitignore            # Specifies files and directories to be ignored by Git
+├── README.md             # This file
+├── requirements.txt      # Python dependencies for local installation
+├── requirements_colab.txt # Dependencies for Google Colab
+└── environment.yml       # Conda environment for Binder
 ```
 
 ## Setup and Installation
@@ -50,41 +128,28 @@ The project is organized into the following directories:
 
 ## How to Use
 
-### 1. Large-Scale Corpus Generation
+### Quick Start (Using Pre-generated Data)
+If you want to jump straight to analysis without generating new corpora:
+1. Open `notebook2_corpus_analysis.ipynb` 
+2. Run all cells to see the complete analysis using our pre-generated data
 
-The primary generation script allows for the creation of massive, resumable text corpora.
+### Full Workflow (Generate Your Own Data)
+For the complete experience and to understand the full pipeline:
 
-*   **Script:** `scripts/generate_large_corpus.py`
-*   **Configuration:** `scripts/config.json`
+1. **Start with the basics**: Open `notebook1_llm_generation.ipynb` to understand LLM generation concepts
 
-**To run the generation:**
-1.  **Configure:** Edit `scripts/config.json` to set the `target_word_count`, model parameters, and file paths. Ensure the `seed_words_file` points to a valid CSV or Excel file inside the `data/` directory.
-2.  **Execute:** Run the script from the project's root directory:
-    ```bash
-    python scripts/generate_large_corpus.py
-    ```
-    The script will save its progress to `output/generation_state.json` and the final corpus to `output/large_corpus.txt`. It can be safely stopped and restarted.
+2. **Generate a large corpus**: 
+   ```bash
+   # Choose your preferred generation approach
+   python scripts/script-1-gen-dynamic.py --config scripts/config_2m_llama.json
+   # OR
+   python scripts/script-1-gen.py --config scripts/config_2m_llama.json
+   ```
 
-### 2. Summer School Practical Session
+3. **Process and analyze**: Follow the notebook sequence (1b → 1c → 1d → 2) as outlined in the workflow above
 
-The practical session is contained in two Jupyter notebooks.
-
-*   **Notebook 1: LLM Generation**: `notebooks/notebook1_llm_generation.ipynb`
-    *   **Purpose**: Generates a small corpus and calculates both word frequency and LLM-estimated "familiarity" scores.
-    *   **Output**: A `.csv` file with words and their associated predictors.
-
-*   **Notebook 2: Corpus Analysis**: `notebooks/notebook2_corpus_analysis.ipynb`
-    *   **Purpose**: Analyzes the predictors from Notebook 1 and validates them against human reading time data using restricted cubic splines regression.
-
-**To run the session:**
-1.  Launch Jupyter Lab or Jupyter Notebook from your terminal.
-2.  Open and run the cells in `notebook1_llm_generation.ipynb` first.
-3.  Then, open and run the cells in `notebook2_corpus_analysis.ipynb`.
-
-### 3. Corpus Quality Analysis
-
-A dedicated notebook is available to analyze the quality of any generated corpus.
-
-*   **Notebook:** `notebooks/analyze_corpus.ipynb`
-*   **Purpose**: Performs quality checks, such as verifying Zipf's Law and inspecting the most frequent words, on a generated text file.
-*   **To Use**: Place the corpus file (e.g., `large_corpus.txt`) in the `output/` directory and run the cells in the notebook.
+### Configuration Files
+Available config files for different models and scales:
+- `config_2m_llama.json` - 2M tokens using Llama model (recommended)
+- `config_2m_gpt_oss20b.json` - Alternative using GPT model
+- Create your own config file following the provided templates

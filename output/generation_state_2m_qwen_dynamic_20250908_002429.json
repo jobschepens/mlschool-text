@@ -1,0 +1,1008 @@
+{
+    "total_words_generated": 1462695,
+    "total_requests": 4790,
+    "estimated_cost": 0.9423068499999991,
+    "start_time": 1757283869.86065,
+    "stories": [
+        {
+            "story_id": "dynamic_4691",
+            "genre": "analyzing_cultural_practices",
+            "word_count": 298,
+            "character_count": 1941,
+            "timestamp": "2025-09-08T08:16:29.787542",
+            "prompt_used": "Provide a comprehensive overview of conversational text analyzing a situation related to cultural practices, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020135000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4692",
+            "genre": "describing_communication",
+            "word_count": 305,
+            "character_count": 1917,
+            "timestamp": "2025-09-08T08:16:34.771937",
+            "prompt_used": "Write an extensive exploration of instructional text describing a process related to communication, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019835,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4693",
+            "genre": "investigating_natural_phenomena",
+            "word_count": 305,
+            "character_count": 1955,
+            "timestamp": "2025-09-08T08:16:39.930864",
+            "prompt_used": "Create a detailed explanation formal text investigating a subject related to natural phenomena, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002021,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4694",
+            "genre": "providing_historical_events",
+            "word_count": 292,
+            "character_count": 1765,
+            "timestamp": "2025-09-08T08:16:45.371068",
+            "prompt_used": "Develop a comprehensive discussion conversational text providing details related to historical events, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018360000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4695",
+            "genre": "explaining_everyday_life",
+            "word_count": 301,
+            "character_count": 1797,
+            "timestamp": "2025-09-08T08:16:50.580731",
+            "prompt_used": "Write a full account of informative text explaining an idea related to everyday life, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018620000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4696",
+            "genre": "giving_social_interactions",
+            "word_count": 313,
+            "character_count": 1813,
+            "timestamp": "2025-09-08T08:16:55.787168",
+            "prompt_used": "Create a thorough examination of reflective text giving an overview related to social interactions, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018795000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4697",
+            "genre": "analyzing_personal_development",
+            "word_count": 310,
+            "character_count": 1716,
+            "timestamp": "2025-09-08T08:17:01.302223",
+            "prompt_used": "Develop a comprehensive discussion reflective text analyzing a situation related to personal development, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00017850000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4698",
+            "genre": "discussing_natural_phenomena",
+            "word_count": 308,
+            "character_count": 1920,
+            "timestamp": "2025-09-08T08:17:08.099286",
+            "prompt_used": "Provide an in-depth look at descriptive text discussing a topic related to natural phenomena, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019845,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4699",
+            "genre": "sharing_personal_development",
+            "word_count": 324,
+            "character_count": 2213,
+            "timestamp": "2025-09-08T08:17:13.069374",
+            "prompt_used": "Create a detailed explanation detailed text sharing information related to personal development, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00022825000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4700",
+            "genre": "providing_everyday_life",
+            "word_count": 320,
+            "character_count": 1937,
+            "timestamp": "2025-09-08T08:17:18.302664",
+            "prompt_used": "Provide a comprehensive overview of reflective text providing details related to everyday life, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020035000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4701",
+            "genre": "telling_health_and_wellness",
+            "word_count": 321,
+            "character_count": 1783,
+            "timestamp": "2025-09-08T08:17:23.530813",
+            "prompt_used": "Create a detailed explanation reflective text telling about an experience related to health and wellness, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001849,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4702",
+            "genre": "comparing_technological_developments",
+            "word_count": 326,
+            "character_count": 2247,
+            "timestamp": "2025-09-08T08:17:29.158914",
+            "prompt_used": "Create a detailed explanation explanatory text comparing things related to technological developments, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002313,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4703",
+            "genre": "comparing_traditions_and_customs",
+            "word_count": 292,
+            "character_count": 1722,
+            "timestamp": "2025-09-08T08:17:34.180058",
+            "prompt_used": "Develop a comprehensive discussion conversational text comparing things related to traditions and customs, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001795,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4704",
+            "genre": "telling_problem-solving",
+            "word_count": 307,
+            "character_count": 1739,
+            "timestamp": "2025-09-08T08:17:39.161401",
+            "prompt_used": "Write an extensive exploration of reflective text telling about an experience related to problem-solving, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001808,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4705",
+            "genre": "exploring_human_experiences",
+            "word_count": 307,
+            "character_count": 1881,
+            "timestamp": "2025-09-08T08:17:44.163757",
+            "prompt_used": "Develop a comprehensive discussion descriptive text exploring a concept related to human experiences, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019490000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4706",
+            "genre": "telling_innovation_and_creativity",
+            "word_count": 309,
+            "character_count": 1770,
+            "timestamp": "2025-09-08T08:17:49.209100",
+            "prompt_used": "Write a substantial piece descriptive text telling about an experience related to innovation and creativity, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001843,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4707",
+            "genre": "investigating_health_and_wellness",
+            "word_count": 293,
+            "character_count": 2043,
+            "timestamp": "2025-09-08T08:17:54.873212",
+            "prompt_used": "Write an extensive exploration of explanatory text investigating a subject related to health and wellness, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021105000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4708",
+            "genre": "investigating_relationships",
+            "word_count": 312,
+            "character_count": 1758,
+            "timestamp": "2025-09-08T08:18:01.367337",
+            "prompt_used": "Develop a complete description of narrative text investigating a subject related to relationships, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018250000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4709",
+            "genre": "discussing_natural_phenomena",
+            "word_count": 328,
+            "character_count": 1853,
+            "timestamp": "2025-09-08T08:18:07.619918",
+            "prompt_used": "Create a detailed explanation informative text discussing a topic related to natural phenomena, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001918,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4710",
+            "genre": "comparing_historical_events",
+            "word_count": 308,
+            "character_count": 1911,
+            "timestamp": "2025-09-08T08:18:13.120266",
+            "prompt_used": "Write a full account of detailed text comparing things related to historical events, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019695,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4711",
+            "genre": "sharing_human_experiences",
+            "word_count": 306,
+            "character_count": 1772,
+            "timestamp": "2025-09-08T08:18:18.250863",
+            "prompt_used": "Create a detailed explanation conversational text sharing information related to human experiences, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018395,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4712",
+            "genre": "sharing_relationships",
+            "word_count": 294,
+            "character_count": 2036,
+            "timestamp": "2025-09-08T08:18:23.384654",
+            "prompt_used": "Provide an in-depth look at informative text sharing information related to relationships, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021020000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4713",
+            "genre": "explaining_human_experiences",
+            "word_count": 307,
+            "character_count": 1767,
+            "timestamp": "2025-09-08T08:18:28.389602",
+            "prompt_used": "Write an extensive exploration of reflective text explaining an idea related to human experiences, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018345000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4714",
+            "genre": "examining_personal_development",
+            "word_count": 307,
+            "character_count": 1886,
+            "timestamp": "2025-09-08T08:18:33.415617",
+            "prompt_used": "Create a detailed explanation narrative text examining something related to personal development, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019545000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4715",
+            "genre": "investigating_health_and_wellness",
+            "word_count": 310,
+            "character_count": 1856,
+            "timestamp": "2025-09-08T08:18:39.059560",
+            "prompt_used": "Create a detailed explanation narrative text investigating a subject related to health and wellness, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019265000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4716",
+            "genre": "providing_natural_phenomena",
+            "word_count": 314,
+            "character_count": 2092,
+            "timestamp": "2025-09-08T08:18:44.233810",
+            "prompt_used": "Write a substantial piece detailed text providing details related to natural phenomena, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021565,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4717",
+            "genre": "investigating_artistic_expressions",
+            "word_count": 291,
+            "character_count": 1861,
+            "timestamp": "2025-09-08T08:18:49.766392",
+            "prompt_used": "Create a detailed explanation explanatory text investigating a subject related to artistic expressions, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019335,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4718",
+            "genre": "sharing_future_possibilities",
+            "word_count": 309,
+            "character_count": 1968,
+            "timestamp": "2025-09-08T08:18:54.847039",
+            "prompt_used": "Write a substantial piece descriptive text sharing information related to future possibilities, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020355000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4719",
+            "genre": "analyzing_relationships",
+            "word_count": 303,
+            "character_count": 1593,
+            "timestamp": "2025-09-08T08:19:00.668371",
+            "prompt_used": "Develop a comprehensive discussion casual text analyzing a situation related to relationships, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00016625000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4720",
+            "genre": "providing_human_experiences",
+            "word_count": 309,
+            "character_count": 2123,
+            "timestamp": "2025-09-08T08:19:05.725036",
+            "prompt_used": "Provide an in-depth look at informative text providing details related to human experiences, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002186,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4721",
+            "genre": "exploring_human_experiences",
+            "word_count": 318,
+            "character_count": 1819,
+            "timestamp": "2025-09-08T08:19:10.957303",
+            "prompt_used": "Write a substantial piece descriptive text exploring a concept related to human experiences, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001882,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4722",
+            "genre": "describing_human_experiences",
+            "word_count": 296,
+            "character_count": 1727,
+            "timestamp": "2025-09-08T08:19:16.101557",
+            "prompt_used": "Create a detailed explanation instructional text describing a process related to human experiences, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00017945000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4723",
+            "genre": "sharing_scientific_discoveries",
+            "word_count": 303,
+            "character_count": 2088,
+            "timestamp": "2025-09-08T08:19:21.616497",
+            "prompt_used": "Provide a comprehensive overview of narrative text sharing information related to scientific discoveries, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002157,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4724",
+            "genre": "investigating_innovation_and_creativity",
+            "word_count": 297,
+            "character_count": 1767,
+            "timestamp": "2025-09-08T08:19:26.729350",
+            "prompt_used": "Create a thorough examination of detailed text investigating a subject related to innovation and creativity, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018345000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4725",
+            "genre": "analyzing_relationships",
+            "word_count": 293,
+            "character_count": 2074,
+            "timestamp": "2025-09-08T08:19:31.755778",
+            "prompt_used": "Provide an in-depth look at analytical text analyzing a situation related to relationships, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021365000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4726",
+            "genre": "comparing_scientific_discoveries",
+            "word_count": 286,
+            "character_count": 2118,
+            "timestamp": "2025-09-08T08:19:36.929982",
+            "prompt_used": "Create a thorough examination of formal text comparing things related to scientific discoveries, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002185,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4727",
+            "genre": "giving_cultural_practices",
+            "word_count": 340,
+            "character_count": 2011,
+            "timestamp": "2025-09-08T08:19:43.864001",
+            "prompt_used": "Write a full account of narrative text giving an overview related to cultural practices, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020725,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4728",
+            "genre": "examining_everyday_life",
+            "word_count": 291,
+            "character_count": 1718,
+            "timestamp": "2025-09-08T08:19:48.943464",
+            "prompt_used": "Create a detailed explanation informative text examining something related to everyday life, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00017835000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4729",
+            "genre": "investigating_natural_phenomena",
+            "word_count": 287,
+            "character_count": 1693,
+            "timestamp": "2025-09-08T08:19:54.072610",
+            "prompt_used": "Create a thorough examination of explanatory text investigating a subject related to natural phenomena, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001761,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4730",
+            "genre": "explaining_communication",
+            "word_count": 296,
+            "character_count": 1735,
+            "timestamp": "2025-09-08T08:19:59.285709",
+            "prompt_used": "Create a detailed explanation conversational text explaining an idea related to communication, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001798,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4731",
+            "genre": "investigating_environment_and_nature",
+            "word_count": 329,
+            "character_count": 1869,
+            "timestamp": "2025-09-08T08:20:04.752394",
+            "prompt_used": "Create a thorough examination of reflective text investigating a subject related to environment and nature, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019400000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4732",
+            "genre": "sharing_future_possibilities",
+            "word_count": 312,
+            "character_count": 2010,
+            "timestamp": "2025-09-08T08:20:11.108711",
+            "prompt_used": "Develop a complete description of detailed text sharing information related to future possibilities, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020800000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4733",
+            "genre": "explaining_historical_events",
+            "word_count": 302,
+            "character_count": 1884,
+            "timestamp": "2025-09-08T08:20:17.629990",
+            "prompt_used": "Provide an in-depth look at informative text explaining an idea related to historical events, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019485000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4734",
+            "genre": "discussing_work_and_careers",
+            "word_count": 322,
+            "character_count": 2002,
+            "timestamp": "2025-09-08T08:20:23.056868",
+            "prompt_used": "Provide an in-depth look at descriptive text discussing a topic related to work and careers, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020675,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4735",
+            "genre": "giving_social_interactions",
+            "word_count": 315,
+            "character_count": 2409,
+            "timestamp": "2025-09-08T08:20:28.278206",
+            "prompt_used": "Develop a complete description of explanatory text giving an overview related to social interactions, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002477,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4736",
+            "genre": "providing_social_interactions",
+            "word_count": 313,
+            "character_count": 1748,
+            "timestamp": "2025-09-08T08:20:33.459793",
+            "prompt_used": "Write a full account of casual text providing details related to social interactions, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018095,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4737",
+            "genre": "comparing_social_interactions",
+            "word_count": 305,
+            "character_count": 1922,
+            "timestamp": "2025-09-08T08:20:38.517013",
+            "prompt_used": "Create a detailed explanation reflective text comparing things related to social interactions, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001989,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4738",
+            "genre": "investigating_technological_developments",
+            "word_count": 307,
+            "character_count": 1860,
+            "timestamp": "2025-09-08T08:20:45.438618",
+            "prompt_used": "Create a thorough examination of instructional text investigating a subject related to technological developments, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019365000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4739",
+            "genre": "describing_personal_development",
+            "word_count": 301,
+            "character_count": 1685,
+            "timestamp": "2025-09-08T08:20:50.751526",
+            "prompt_used": "Provide an in-depth look at instructional text describing a process related to personal development, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001756,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4740",
+            "genre": "telling_technological_developments",
+            "word_count": 326,
+            "character_count": 2050,
+            "timestamp": "2025-09-08T08:20:55.905953",
+            "prompt_used": "Provide a comprehensive overview of detailed text telling about an experience related to technological developments, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021229999999999998,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4741",
+            "genre": "investigating_learning_processes",
+            "word_count": 321,
+            "character_count": 2250,
+            "timestamp": "2025-09-08T08:21:00.885549",
+            "prompt_used": "Provide a comprehensive overview of explanatory text investigating a subject related to learning processes, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00023185000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4742",
+            "genre": "discussing_everyday_life",
+            "word_count": 293,
+            "character_count": 1674,
+            "timestamp": "2025-09-08T08:21:08.251976",
+            "prompt_used": "Write a substantial piece conversational text discussing a topic related to everyday life, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00017395000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4743",
+            "genre": "exploring_future_possibilities",
+            "word_count": 307,
+            "character_count": 1946,
+            "timestamp": "2025-09-08T08:21:13.316315",
+            "prompt_used": "Write an extensive exploration of reflective text exploring a concept related to future possibilities, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020130000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4744",
+            "genre": "investigating_problem-solving",
+            "word_count": 302,
+            "character_count": 1860,
+            "timestamp": "2025-09-08T08:21:19.912515",
+            "prompt_used": "Provide an in-depth look at narrative text investigating a subject related to problem-solving, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019290000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4745",
+            "genre": "analyzing_health_and_wellness",
+            "word_count": 310,
+            "character_count": 2027,
+            "timestamp": "2025-09-08T08:21:24.987790",
+            "prompt_used": "Provide a comprehensive overview of persuasive text analyzing a situation related to health and wellness, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020960000000000005,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4746",
+            "genre": "describing_health_and_wellness",
+            "word_count": 263,
+            "character_count": 1509,
+            "timestamp": "2025-09-08T08:21:29.970763",
+            "prompt_used": "Write a full account of conversational text describing a process related to health and wellness, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00015785000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4747",
+            "genre": "examining_environment_and_nature",
+            "word_count": 301,
+            "character_count": 1795,
+            "timestamp": "2025-09-08T08:21:35.424137",
+            "prompt_used": "Provide an in-depth look at narrative text examining something related to environment and nature, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018625000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4748",
+            "genre": "explaining_human_experiences",
+            "word_count": 328,
+            "character_count": 1821,
+            "timestamp": "2025-09-08T08:21:40.440177",
+            "prompt_used": "Create a thorough examination of narrative text explaining an idea related to human experiences, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018905000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4749",
+            "genre": "examining_work_and_careers",
+            "word_count": 313,
+            "character_count": 2002,
+            "timestamp": "2025-09-08T08:21:48.523959",
+            "prompt_used": "Write a full account of informative text examining something related to work and careers, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020645,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4750",
+            "genre": "sharing_historical_events",
+            "word_count": 302,
+            "character_count": 1877,
+            "timestamp": "2025-09-08T08:21:53.614689",
+            "prompt_used": "Write a full account of persuasive text sharing information related to historical events, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019435,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4751",
+            "genre": "sharing_health_and_wellness",
+            "word_count": 301,
+            "character_count": 1830,
+            "timestamp": "2025-09-08T08:21:58.661093",
+            "prompt_used": "Write a substantial piece descriptive text sharing information related to health and wellness, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018955,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4752",
+            "genre": "exploring_relationships",
+            "word_count": 316,
+            "character_count": 1906,
+            "timestamp": "2025-09-08T08:22:03.692504",
+            "prompt_used": "Develop a complete description of narrative text exploring a concept related to relationships, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019715000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4753",
+            "genre": "examining_everyday_life",
+            "word_count": 312,
+            "character_count": 1824,
+            "timestamp": "2025-09-08T08:22:09.104118",
+            "prompt_used": "Develop a complete description of descriptive text examining something related to everyday life, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018915000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4754",
+            "genre": "providing_cultural_practices",
+            "word_count": 306,
+            "character_count": 1920,
+            "timestamp": "2025-09-08T08:22:14.732187",
+            "prompt_used": "Provide a comprehensive overview of reflective text providing details related to cultural practices, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019905000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4755",
+            "genre": "investigating_human_experiences",
+            "word_count": 298,
+            "character_count": 1729,
+            "timestamp": "2025-09-08T08:22:19.967221",
+            "prompt_used": "Write a full account of descriptive text investigating a subject related to human experiences, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00017955,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4756",
+            "genre": "examining_natural_phenomena",
+            "word_count": 308,
+            "character_count": 1763,
+            "timestamp": "2025-09-08T08:22:25.146713",
+            "prompt_used": "Provide an in-depth look at detailed text examining something related to natural phenomena, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018245000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4757",
+            "genre": "explaining_scientific_discoveries",
+            "word_count": 317,
+            "character_count": 1912,
+            "timestamp": "2025-09-08T08:22:30.206917",
+            "prompt_used": "Provide an in-depth look at reflective text explaining an idea related to scientific discoveries, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019810000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4758",
+            "genre": "sharing_environment_and_nature",
+            "word_count": 293,
+            "character_count": 1977,
+            "timestamp": "2025-09-08T08:22:35.268087",
+            "prompt_used": "Write an extensive exploration of detailed text sharing information related to environment and nature, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020465000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4759",
+            "genre": "examining_problem-solving",
+            "word_count": 317,
+            "character_count": 2183,
+            "timestamp": "2025-09-08T08:22:40.459775",
+            "prompt_used": "Create a detailed explanation analytical text examining something related to problem-solving, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00022490000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4760",
+            "genre": "exploring_communication",
+            "word_count": 304,
+            "character_count": 2064,
+            "timestamp": "2025-09-08T08:22:46.897772",
+            "prompt_used": "Develop a complete description of analytical text exploring a concept related to communication, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021345,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4761",
+            "genre": "discussing_historical_events",
+            "word_count": 295,
+            "character_count": 2038,
+            "timestamp": "2025-09-08T08:22:52.379352",
+            "prompt_used": "Provide an in-depth look at analytical text discussing a topic related to historical events, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021005,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4762",
+            "genre": "exploring_future_possibilities",
+            "word_count": 321,
+            "character_count": 2260,
+            "timestamp": "2025-09-08T08:22:57.650753",
+            "prompt_used": "Provide a comprehensive overview of analytical text exploring a concept related to future possibilities, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002329,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4763",
+            "genre": "providing_technological_developments",
+            "word_count": 311,
+            "character_count": 1904,
+            "timestamp": "2025-09-08T08:23:03.084916",
+            "prompt_used": "Create a detailed explanation conversational text providing details related to technological developments, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019775,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4764",
+            "genre": "exploring_natural_phenomena",
+            "word_count": 317,
+            "character_count": 1780,
+            "timestamp": "2025-09-08T08:23:08.084047",
+            "prompt_used": "Write an extensive exploration of instructional text exploring a concept related to natural phenomena, using clear, accessible language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001852,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4765",
+            "genre": "providing_traditions_and_customs",
+            "word_count": 316,
+            "character_count": 2139,
+            "timestamp": "2025-09-08T08:23:13.129446",
+            "prompt_used": "Develop a comprehensive discussion analytical text providing details related to traditions and customs, in a well-organized way. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002205,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4766",
+            "genre": "examining_traditions_and_customs",
+            "word_count": 295,
+            "character_count": 1798,
+            "timestamp": "2025-09-08T08:23:18.570597",
+            "prompt_used": "Write an extensive exploration of formal text examining something related to traditions and customs, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018650000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4767",
+            "genre": "telling_technological_developments",
+            "word_count": 303,
+            "character_count": 1746,
+            "timestamp": "2025-09-08T08:23:24.051494",
+            "prompt_used": "Provide an in-depth look at analytical text telling about an experience related to technological developments, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018205,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4768",
+            "genre": "investigating_innovation_and_creativity",
+            "word_count": 295,
+            "character_count": 2127,
+            "timestamp": "2025-09-08T08:23:29.305065",
+            "prompt_used": "Provide an in-depth look at persuasive text investigating a subject related to innovation and creativity, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021945000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4769",
+            "genre": "investigating_technological_developments",
+            "word_count": 319,
+            "character_count": 2086,
+            "timestamp": "2025-09-08T08:23:34.331821",
+            "prompt_used": "Provide an in-depth look at explanatory text investigating a subject related to technological developments, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002159,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4770",
+            "genre": "examining_work_and_careers",
+            "word_count": 307,
+            "character_count": 1786,
+            "timestamp": "2025-09-08T08:23:39.970714",
+            "prompt_used": "Provide a comprehensive overview of conversational text examining something related to work and careers, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001856,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4771",
+            "genre": "providing_traditions_and_customs",
+            "word_count": 315,
+            "character_count": 1834,
+            "timestamp": "2025-09-08T08:23:45.577444",
+            "prompt_used": "Create a detailed explanation narrative text providing details related to traditions and customs, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001898,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4772",
+            "genre": "sharing_everyday_life",
+            "word_count": 304,
+            "character_count": 1744,
+            "timestamp": "2025-09-08T08:23:51.090091",
+            "prompt_used": "Write a full account of formal text sharing information related to everyday life, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018085,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4773",
+            "genre": "analyzing_innovation_and_creativity",
+            "word_count": 312,
+            "character_count": 2152,
+            "timestamp": "2025-09-08T08:23:57.957997",
+            "prompt_used": "Provide a comprehensive overview of persuasive text analyzing a situation related to innovation and creativity, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002224,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4774",
+            "genre": "comparing_environment_and_nature",
+            "word_count": 299,
+            "character_count": 2203,
+            "timestamp": "2025-09-08T08:24:03.134860",
+            "prompt_used": "Create a detailed explanation formal text comparing things related to environment and nature, with attention to important details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00022690000000000004,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4775",
+            "genre": "analyzing_personal_development",
+            "word_count": 299,
+            "character_count": 1782,
+            "timestamp": "2025-09-08T08:24:08.125885",
+            "prompt_used": "Develop a complete description of analytical text analyzing a situation related to personal development, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018505,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4776",
+            "genre": "providing_social_interactions",
+            "word_count": 314,
+            "character_count": 2092,
+            "timestamp": "2025-09-08T08:24:13.182895",
+            "prompt_used": "Create a detailed explanation formal text providing details related to social interactions, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00021595000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4777",
+            "genre": "explaining_technological_developments",
+            "word_count": 308,
+            "character_count": 1873,
+            "timestamp": "2025-09-08T08:24:19.398818",
+            "prompt_used": "Write a substantial piece conversational text explaining an idea related to technological developments, in a thoughtful manner. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001941,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4778",
+            "genre": "comparing_cultural_practices",
+            "word_count": 307,
+            "character_count": 2091,
+            "timestamp": "2025-09-08T08:24:24.570587",
+            "prompt_used": "Provide an in-depth look at analytical text comparing things related to cultural practices, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002154,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4779",
+            "genre": "discussing_innovation_and_creativity",
+            "word_count": 309,
+            "character_count": 1790,
+            "timestamp": "2025-09-08T08:24:29.561852",
+            "prompt_used": "Develop a complete description of persuasive text discussing a topic related to innovation and creativity, using everyday language. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018585000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4780",
+            "genre": "telling_work_and_careers",
+            "word_count": 320,
+            "character_count": 1831,
+            "timestamp": "2025-09-08T08:24:34.548547",
+            "prompt_used": "Create a thorough examination of narrative text telling about an experience related to work and careers, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019015,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4781",
+            "genre": "describing_problem-solving",
+            "word_count": 291,
+            "character_count": 2022,
+            "timestamp": "2025-09-08T08:24:39.692849",
+            "prompt_used": "Provide an in-depth look at analytical text describing a process related to problem-solving, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020860000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4782",
+            "genre": "sharing_personal_development",
+            "word_count": 299,
+            "character_count": 2227,
+            "timestamp": "2025-09-08T08:24:45.125840",
+            "prompt_used": "Provide an in-depth look at formal text sharing information related to personal development, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0002293,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4783",
+            "genre": "analyzing_technological_developments",
+            "word_count": 325,
+            "character_count": 2368,
+            "timestamp": "2025-09-08T08:24:50.553168",
+            "prompt_used": "Provide a comprehensive overview of descriptive text analyzing a situation related to technological developments, focusing on practical aspects. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00024430000000000003,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4784",
+            "genre": "exploring_scientific_discoveries",
+            "word_count": 278,
+            "character_count": 1800,
+            "timestamp": "2025-09-08T08:24:56.976481",
+            "prompt_used": "Develop a comprehensive discussion casual text exploring a concept related to scientific discoveries, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018720000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4785",
+            "genre": "telling_work_and_careers",
+            "word_count": 308,
+            "character_count": 1864,
+            "timestamp": "2025-09-08T08:25:02.006293",
+            "prompt_used": "Develop a comprehensive discussion descriptive text telling about an experience related to work and careers, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001939,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4786",
+            "genre": "analyzing_technological_developments",
+            "word_count": 322,
+            "character_count": 2338,
+            "timestamp": "2025-09-08T08:25:06.966370",
+            "prompt_used": "Develop a complete description of informative text analyzing a situation related to technological developments, with balanced perspectives. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00024095,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4787",
+            "genre": "discussing_artistic_expressions",
+            "word_count": 297,
+            "character_count": 1877,
+            "timestamp": "2025-09-08T08:25:11.948873",
+            "prompt_used": "Write an extensive exploration of detailed text discussing a topic related to artistic expressions, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.0001945,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4788",
+            "genre": "investigating_innovation_and_creativity",
+            "word_count": 303,
+            "character_count": 1847,
+            "timestamp": "2025-09-08T08:25:19.000664",
+            "prompt_used": "Provide an in-depth look at persuasive text investigating a subject related to innovation and creativity, using concrete illustrations. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00019160000000000002,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4789",
+            "genre": "investigating_work_and_careers",
+            "word_count": 308,
+            "character_count": 2011,
+            "timestamp": "2025-09-08T08:25:24.020671",
+            "prompt_used": "Provide a comprehensive overview of detailed text investigating a subject related to work and careers, with specific examples and details. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00020800000000000001,
+            "generation_strategy": "dynamic_prompts"
+        },
+        {
+            "story_id": "dynamic_4790",
+            "genre": "exploring_problem-solving",
+            "word_count": 307,
+            "character_count": 1761,
+            "timestamp": "2025-09-08T08:25:29.216187",
+            "prompt_used": "Write a full account of narrative text exploring a concept related to problem-solving, in an engaging and readable style. Write naturally and let the content develop organically.",
+            "estimated_cost": 0.00018260000000000002,
+            "generation_strategy": "dynamic_prompts"
+        }
+    ]
+}

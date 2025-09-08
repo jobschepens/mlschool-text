@@ -1,0 +1,1008 @@
+{
+    "total_words_generated": 534491,
+    "total_requests": 1849,
+    "estimated_cost": 0.2503533000000004,
+    "start_time": 1757283816.5477426,
+    "stories": [
+        {
+            "story_id": "story_1750",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 307,
+            "character_count": 1831,
+            "timestamp": "2025-09-08T04:00:01.911758",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001423
+        },
+        {
+            "story_id": "story_1751",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 328,
+            "character_count": 1983,
+            "timestamp": "2025-09-08T04:00:08.559423",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001533
+        },
+        {
+            "story_id": "story_1752",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 315,
+            "character_count": 1860,
+            "timestamp": "2025-09-08T04:00:14.070680",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001447
+        },
+        {
+            "story_id": "story_1753",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 247,
+            "character_count": 1641,
+            "timestamp": "2025-09-08T04:00:21.570664",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00012729999999999998
+        },
+        {
+            "story_id": "story_1754",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 282,
+            "character_count": 1871,
+            "timestamp": "2025-09-08T04:00:28.688323",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001449
+        },
+        {
+            "story_id": "story_1755",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 287,
+            "character_count": 1593,
+            "timestamp": "2025-09-08T04:00:36.080682",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001235
+        },
+        {
+            "story_id": "story_1756",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 211,
+            "character_count": 1444,
+            "timestamp": "2025-09-08T04:00:43.147405",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00011259999999999999
+        },
+        {
+            "story_id": "story_1757",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 304,
+            "character_count": 1746,
+            "timestamp": "2025-09-08T04:00:50.351214",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.000136
+        },
+        {
+            "story_id": "story_1758",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 307,
+            "character_count": 1899,
+            "timestamp": "2025-09-08T04:00:57.133642",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.000147
+        },
+        {
+            "story_id": "story_1759",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 294,
+            "character_count": 1878,
+            "timestamp": "2025-09-08T04:01:06.177888",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.000145
+        },
+        {
+            "story_id": "story_1760",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 302,
+            "character_count": 1950,
+            "timestamp": "2025-09-08T04:01:12.100163",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001509
+        },
+        {
+            "story_id": "story_1761",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 303,
+            "character_count": 1978,
+            "timestamp": "2025-09-08T04:01:19.387184",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.000153
+        },
+        {
+            "story_id": "story_1762",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 290,
+            "character_count": 1588,
+            "timestamp": "2025-09-08T04:01:26.340399",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012319999999999999
+        },
+        {
+            "story_id": "story_1763",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 207,
+            "character_count": 1383,
+            "timestamp": "2025-09-08T04:01:31.679844",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00010779999999999999
+        },
+        {
+            "story_id": "story_1764",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 294,
+            "character_count": 1613,
+            "timestamp": "2025-09-08T04:01:39.489493",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012499999999999998
+        },
+        {
+            "story_id": "story_1765",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 294,
+            "character_count": 1567,
+            "timestamp": "2025-09-08T04:01:47.836546",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012140000000000001
+        },
+        {
+            "story_id": "story_1766",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 269,
+            "character_count": 1687,
+            "timestamp": "2025-09-08T04:01:56.361563",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00013039999999999997
+        },
+        {
+            "story_id": "story_1767",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 257,
+            "character_count": 1647,
+            "timestamp": "2025-09-08T04:02:04.063702",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00012759999999999998
+        },
+        {
+            "story_id": "story_1768",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 245,
+            "character_count": 1599,
+            "timestamp": "2025-09-08T04:02:10.617270",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.000124
+        },
+        {
+            "story_id": "story_1769",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 287,
+            "character_count": 1837,
+            "timestamp": "2025-09-08T04:02:19.748416",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001425
+        },
+        {
+            "story_id": "story_1770",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 291,
+            "character_count": 1814,
+            "timestamp": "2025-09-08T04:02:25.182260",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001407
+        },
+        {
+            "story_id": "story_1771",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 312,
+            "character_count": 1888,
+            "timestamp": "2025-09-08T04:02:31.691647",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001468
+        },
+        {
+            "story_id": "story_1772",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 298,
+            "character_count": 1580,
+            "timestamp": "2025-09-08T04:02:37.743100",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001226
+        },
+        {
+            "story_id": "story_1773",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 298,
+            "character_count": 1567,
+            "timestamp": "2025-09-08T04:02:44.440065",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012140000000000001
+        },
+        {
+            "story_id": "story_1774",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 289,
+            "character_count": 1852,
+            "timestamp": "2025-09-08T04:02:51.654047",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001437
+        },
+        {
+            "story_id": "story_1775",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 298,
+            "character_count": 1850,
+            "timestamp": "2025-09-08T04:03:01.032463",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001438
+        },
+        {
+            "story_id": "story_1776",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 293,
+            "character_count": 1589,
+            "timestamp": "2025-09-08T04:03:09.705646",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012319999999999999
+        },
+        {
+            "story_id": "story_1777",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 310,
+            "character_count": 1746,
+            "timestamp": "2025-09-08T04:03:15.912047",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.000136
+        },
+        {
+            "story_id": "story_1778",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 308,
+            "character_count": 1773,
+            "timestamp": "2025-09-08T04:03:22.988786",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00013809999999999997
+        },
+        {
+            "story_id": "story_1779",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 310,
+            "character_count": 1936,
+            "timestamp": "2025-09-08T04:03:29.986969",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00015000000000000001
+        },
+        {
+            "story_id": "story_1780",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 335,
+            "character_count": 1927,
+            "timestamp": "2025-09-08T04:03:36.884348",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014949999999999997
+        },
+        {
+            "story_id": "story_1781",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 290,
+            "character_count": 1578,
+            "timestamp": "2025-09-08T04:03:44.739274",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001223
+        },
+        {
+            "story_id": "story_1782",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 284,
+            "character_count": 1959,
+            "timestamp": "2025-09-08T04:03:51.193220",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001515
+        },
+        {
+            "story_id": "story_1783",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 323,
+            "character_count": 1915,
+            "timestamp": "2025-09-08T04:04:00.758135",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014859999999999998
+        },
+        {
+            "story_id": "story_1784",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 285,
+            "character_count": 1860,
+            "timestamp": "2025-09-08T04:04:10.591183",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.0001438
+        },
+        {
+            "story_id": "story_1785",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 313,
+            "character_count": 1971,
+            "timestamp": "2025-09-08T04:04:18.000629",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00015240000000000002
+        },
+        {
+            "story_id": "story_1786",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 302,
+            "character_count": 1587,
+            "timestamp": "2025-09-08T04:04:26.976594",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012289999999999998
+        },
+        {
+            "story_id": "story_1787",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 225,
+            "character_count": 1461,
+            "timestamp": "2025-09-08T04:04:33.776040",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00011379999999999999
+        },
+        {
+            "story_id": "story_1788",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 322,
+            "character_count": 1789,
+            "timestamp": "2025-09-08T04:04:42.016028",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001393
+        },
+        {
+            "story_id": "story_1789",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 323,
+            "character_count": 1882,
+            "timestamp": "2025-09-08T04:04:48.342344",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014619999999999998
+        },
+        {
+            "story_id": "story_1790",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 291,
+            "character_count": 1916,
+            "timestamp": "2025-09-08T04:04:56.485862",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001485
+        },
+        {
+            "story_id": "story_1791",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 283,
+            "character_count": 1576,
+            "timestamp": "2025-09-08T04:05:03.345201",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001223
+        },
+        {
+            "story_id": "story_1792",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 303,
+            "character_count": 1583,
+            "timestamp": "2025-09-08T04:05:10.001071",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001226
+        },
+        {
+            "story_id": "story_1793",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 306,
+            "character_count": 1830,
+            "timestamp": "2025-09-08T04:05:16.356251",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001423
+        },
+        {
+            "story_id": "story_1794",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 280,
+            "character_count": 1772,
+            "timestamp": "2025-09-08T04:05:21.638402",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00013719999999999997
+        },
+        {
+            "story_id": "story_1795",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 288,
+            "character_count": 1556,
+            "timestamp": "2025-09-08T04:05:27.251542",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012080000000000001
+        },
+        {
+            "story_id": "story_1796",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 294,
+            "character_count": 1559,
+            "timestamp": "2025-09-08T04:05:33.482109",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012080000000000001
+        },
+        {
+            "story_id": "story_1797",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 308,
+            "character_count": 1916,
+            "timestamp": "2025-09-08T04:05:42.396186",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001485
+        },
+        {
+            "story_id": "story_1798",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 317,
+            "character_count": 1974,
+            "timestamp": "2025-09-08T04:05:50.338483",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00015309999999999998
+        },
+        {
+            "story_id": "story_1799",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 280,
+            "character_count": 1820,
+            "timestamp": "2025-09-08T04:05:58.531192",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001413
+        },
+        {
+            "story_id": "story_1800",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 285,
+            "character_count": 1608,
+            "timestamp": "2025-09-08T04:06:07.295211",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001247
+        },
+        {
+            "story_id": "story_1801",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 311,
+            "character_count": 1830,
+            "timestamp": "2025-09-08T04:06:16.568789",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001423
+        },
+        {
+            "story_id": "story_1802",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 310,
+            "character_count": 1999,
+            "timestamp": "2025-09-08T04:06:25.564817",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001545
+        },
+        {
+            "story_id": "story_1803",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 290,
+            "character_count": 1560,
+            "timestamp": "2025-09-08T04:06:31.357137",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001211
+        },
+        {
+            "story_id": "story_1804",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 315,
+            "character_count": 1917,
+            "timestamp": "2025-09-08T04:06:39.119690",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001489
+        },
+        {
+            "story_id": "story_1805",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 307,
+            "character_count": 1819,
+            "timestamp": "2025-09-08T04:06:47.633840",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014139999999999997
+        },
+        {
+            "story_id": "story_1806",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 304,
+            "character_count": 1582,
+            "timestamp": "2025-09-08T04:06:55.905315",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001226
+        },
+        {
+            "story_id": "story_1807",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 303,
+            "character_count": 1946,
+            "timestamp": "2025-09-08T04:07:04.759408",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001506
+        },
+        {
+            "story_id": "story_1808",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 289,
+            "character_count": 1857,
+            "timestamp": "2025-09-08T04:07:13.744679",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.000144
+        },
+        {
+            "story_id": "story_1809",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 279,
+            "character_count": 1830,
+            "timestamp": "2025-09-08T04:07:21.535970",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001419
+        },
+        {
+            "story_id": "story_1810",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 287,
+            "character_count": 1908,
+            "timestamp": "2025-09-08T04:07:28.756581",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001479
+        },
+        {
+            "story_id": "story_1811",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 296,
+            "character_count": 1815,
+            "timestamp": "2025-09-08T04:07:36.643576",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001411
+        },
+        {
+            "story_id": "story_1812",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 313,
+            "character_count": 1982,
+            "timestamp": "2025-09-08T04:07:45.619354",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001533
+        },
+        {
+            "story_id": "story_1813",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 303,
+            "character_count": 1939,
+            "timestamp": "2025-09-08T04:07:54.496344",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00015000000000000001
+        },
+        {
+            "story_id": "story_1814",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 300,
+            "character_count": 1820,
+            "timestamp": "2025-09-08T04:08:02.679710",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001413
+        },
+        {
+            "story_id": "story_1815",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 298,
+            "character_count": 1912,
+            "timestamp": "2025-09-08T04:08:11.923816",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001482
+        },
+        {
+            "story_id": "story_1816",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 295,
+            "character_count": 1585,
+            "timestamp": "2025-09-08T04:08:18.738292",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00012289999999999998
+        },
+        {
+            "story_id": "story_1817",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 321,
+            "character_count": 1827,
+            "timestamp": "2025-09-08T04:08:25.819786",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014199999999999998
+        },
+        {
+            "story_id": "story_1818",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 305,
+            "character_count": 1807,
+            "timestamp": "2025-09-08T04:08:34.513331",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001405
+        },
+        {
+            "story_id": "story_1819",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 271,
+            "character_count": 1689,
+            "timestamp": "2025-09-08T04:08:43.762312",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.00013069999999999998
+        },
+        {
+            "story_id": "story_1820",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 316,
+            "character_count": 1852,
+            "timestamp": "2025-09-08T04:08:51.718228",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014409999999999998
+        },
+        {
+            "story_id": "story_1821",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 288,
+            "character_count": 1597,
+            "timestamp": "2025-09-08T04:09:01.164281",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001238
+        },
+        {
+            "story_id": "story_1822",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 301,
+            "character_count": 1951,
+            "timestamp": "2025-09-08T04:09:09.938527",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001509
+        },
+        {
+            "story_id": "story_1823",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 273,
+            "character_count": 1789,
+            "timestamp": "2025-09-08T04:09:18.244982",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00013890000000000002
+        },
+        {
+            "story_id": "story_1824",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 319,
+            "character_count": 1886,
+            "timestamp": "2025-09-08T04:09:27.753598",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014649999999999998
+        },
+        {
+            "story_id": "story_1825",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 331,
+            "character_count": 1918,
+            "timestamp": "2025-09-08T04:09:33.960713",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001489
+        },
+        {
+            "story_id": "story_1826",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 246,
+            "character_count": 1570,
+            "timestamp": "2025-09-08T04:09:42.050262",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00012189999999999998
+        },
+        {
+            "story_id": "story_1827",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 299,
+            "character_count": 1742,
+            "timestamp": "2025-09-08T04:09:48.986378",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001357
+        },
+        {
+            "story_id": "story_1828",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 291,
+            "character_count": 2077,
+            "timestamp": "2025-09-08T04:09:54.578069",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00016050000000000003
+        },
+        {
+            "story_id": "story_1829",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 247,
+            "character_count": 1546,
+            "timestamp": "2025-09-08T04:10:00.582693",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00012009999999999999
+        },
+        {
+            "story_id": "story_1830",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 320,
+            "character_count": 1805,
+            "timestamp": "2025-09-08T04:10:09.061390",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001405
+        },
+        {
+            "story_id": "story_1831",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 255,
+            "character_count": 1674,
+            "timestamp": "2025-09-08T04:10:17.801171",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.0001297
+        },
+        {
+            "story_id": "story_1832",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 244,
+            "character_count": 1595,
+            "timestamp": "2025-09-08T04:10:24.859284",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.0001237
+        },
+        {
+            "story_id": "story_1833",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 296,
+            "character_count": 1833,
+            "timestamp": "2025-09-08T04:10:30.531908",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.00014220000000000001
+        },
+        {
+            "story_id": "story_1834",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 333,
+            "character_count": 1926,
+            "timestamp": "2025-09-08T04:10:36.030710",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00014949999999999997
+        },
+        {
+            "story_id": "story_1835",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 291,
+            "character_count": 1563,
+            "timestamp": "2025-09-08T04:10:43.493055",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001211
+        },
+        {
+            "story_id": "story_1836",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 293,
+            "character_count": 1609,
+            "timestamp": "2025-09-08T04:10:52.480590",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001247
+        },
+        {
+            "story_id": "story_1837",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 301,
+            "character_count": 1873,
+            "timestamp": "2025-09-08T04:11:01.686458",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001452
+        },
+        {
+            "story_id": "story_1838",
+            "genre": "Technical/Scientific",
+            "seeds_used": [],
+            "word_count": 322,
+            "character_count": 2036,
+            "timestamp": "2025-09-08T04:11:11.133472",
+            "prompt_used": "Write a clear, accessible explanation of a scientific concept like photosynthesis, black holes, or the theory of relativity. Focus on making complex ideas understandable to a general audience.",
+            "estimated_cost": 0.0001575
+        },
+        {
+            "story_id": "story_1839",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 233,
+            "character_count": 1544,
+            "timestamp": "2025-09-08T04:11:17.003050",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00012009999999999999
+        },
+        {
+            "story_id": "story_1840",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 275,
+            "character_count": 1791,
+            "timestamp": "2025-09-08T04:11:22.432605",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.0001384
+        },
+        {
+            "story_id": "story_1841",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 287,
+            "character_count": 1518,
+            "timestamp": "2025-09-08T04:11:31.147926",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001178
+        },
+        {
+            "story_id": "story_1842",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 223,
+            "character_count": 1499,
+            "timestamp": "2025-09-08T04:11:40.120220",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00011649999999999999
+        },
+        {
+            "story_id": "story_1843",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 244,
+            "character_count": 1562,
+            "timestamp": "2025-09-08T04:11:47.651149",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.0001213
+        },
+        {
+            "story_id": "story_1844",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 238,
+            "character_count": 1494,
+            "timestamp": "2025-09-08T04:11:55.325268",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.00011619999999999999
+        },
+        {
+            "story_id": "story_1845",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 300,
+            "character_count": 1599,
+            "timestamp": "2025-09-08T04:12:00.746702",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001238
+        },
+        {
+            "story_id": "story_1846",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 321,
+            "character_count": 1813,
+            "timestamp": "2025-09-08T04:12:08.121841",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001411
+        },
+        {
+            "story_id": "story_1847",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 315,
+            "character_count": 1845,
+            "timestamp": "2025-09-08T04:12:15.044037",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.0001435
+        },
+        {
+            "story_id": "story_1848",
+            "genre": "General Knowledge/How-To",
+            "seeds_used": [],
+            "word_count": 289,
+            "character_count": 1602,
+            "timestamp": "2025-09-08T04:12:22.982787",
+            "prompt_used": "Write a helpful 'how-to' guide on a practical skill, such as how to bake bread, create a budget, or learn a new language. Focus on clear, step-by-step instructions.",
+            "estimated_cost": 0.0001241
+        },
+        {
+            "story_id": "story_1849",
+            "genre": "News/Informative",
+            "seeds_used": [],
+            "word_count": 225,
+            "character_count": 1516,
+            "timestamp": "2025-09-08T04:12:28.446020",
+            "prompt_used": "Write a short, informative news-style article about a recent technological breakthrough, a significant global event, or a cultural festival. Write in a neutral, factual tone.",
+            "estimated_cost": 0.000118
+        }
+    ]
+}

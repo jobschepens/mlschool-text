@@ -76,9 +76,40 @@ def generate_text(api_config, prompt, max_retries=3, retry_delay=5):
             )
             response.raise_for_status() # Raises an HTTPError for bad responses (4xx or 5xx)
             result = response.json()
-            return result['choices'][0]['message']['content'].strip()
+            
+            # Handle different API response formats robustly
+            if 'choices' in result and len(result['choices']) > 0:
+                # Standard OpenAI/OpenRouter format
+                return result['choices'][0]['message']['content'].strip()
+            elif 'error' in result:
+                # API error response
+                error_msg = result.get('error', {}).get('message', str(result['error']))
+                print(f"   ⚠️ API Error: {error_msg}")
+                return ""
+            else:
+                # Unexpected response format - debug and handle gracefully
+                print(f"   ⚠️ Unexpected API response format. Keys: {list(result.keys())}")
+                print(f"   📝 Response content: {str(result)[:200]}...")
+                
+                # Try alternative response formats
+                if 'data' in result and isinstance(result['data'], list) and len(result['data']) > 0:
+                    return str(result['data'][0]).strip()
+                elif 'text' in result:
+                    return str(result['text']).strip()
+                elif 'content' in result:
+                    return str(result['content']).strip()
+                else:
+                    print(f"   ❌ Could not extract text from response")
+                    return ""
+                    
         except requests.exceptions.RequestException as e:
             print(f"   ⚠️ API request failed (Attempt {attempt + 1}/{max_retries}): {e}. Retrying in {retry_delay}s...")
+            time.sleep(retry_delay)
+        except KeyError as e:
+            print(f"   ⚠️ Response format error (Attempt {attempt + 1}/{max_retries}): Missing key {e}. Retrying in {retry_delay}s...")
+            time.sleep(retry_delay)
+        except Exception as e:
+            print(f"   ⚠️ Unexpected error (Attempt {attempt + 1}/{max_retries}): {e}. Retrying in {retry_delay}s...")
             time.sleep(retry_delay)
     
     print(f"   ❌ API request failed after {max_retries} attempts. Skipping this prompt.")
@@ -160,6 +191,24 @@ def main(config_path):
     load_dotenv()
     
     config = load_config(config_path)
+    
+    # Create timestamped file names to avoid conflicts
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Modify file paths to include timestamp
+    base_corpus_path = config['output_corpus_path']
+    base_state_path = config['state_file_path']
+    
+    # Insert timestamp before file extension
+    corpus_name, corpus_ext = os.path.splitext(base_corpus_path)
+    state_name, state_ext = os.path.splitext(base_state_path)
+    
+    config['output_corpus_path'] = f"{corpus_name}_{timestamp}{corpus_ext}"
+    config['state_file_path'] = f"{state_name}_{timestamp}{state_ext}"
+    
+    print(f"� Timestamped execution: {timestamp}")
+    print(f"📁 Corpus file: {config['output_corpus_path']}")
+    print(f"💾 State file: {config['state_file_path']}")
     
     # --- Ensure output directory exists before proceeding ---
     output_dir = os.path.dirname(config['output_corpus_path'])
@@ -250,10 +299,20 @@ def main(config_path):
                         'estimated_cost': request_cost
                     }
                     
-                    # Save story metadata
+                    # Save story metadata (memory-efficient for large corpora)
                     if 'stories' not in state:
                         state['stories'] = []
+                    
+                    # Keep only recent stories in memory (last 100)
                     state['stories'].append(story_metadata)
+                    if len(state['stories']) > 100:
+                        state['stories'] = state['stories'][-100:]  # Keep only last 100
+                    
+                    # Optionally save detailed metadata to separate file
+                    if config.get('save_detailed_metadata', True):
+                        metadata_file = config['state_file_path'].replace('.json', '_metadata.jsonl')
+                        with open(metadata_file, 'a', encoding='utf-8') as meta_f:
+                            meta_f.write(json.dumps(story_metadata, ensure_ascii=False) + '\n')
                     
                     # 7. Append to file with metadata header
                     f.write(f"<!-- Story Metadata: {json.dumps(story_metadata, ensure_ascii=False)} -->\n")
@@ -264,6 +323,13 @@ def main(config_path):
                     
                     print(f"   ✅ Generated {num_new_words} words. Total: {current_words:,} / {target_words:,} ({current_words/target_words:.2%})")
                     print(f"   💰 Request cost: ${request_cost:.4f}, Total cost: ${current_cost:.4f}")
+                    
+                    # Enhanced progress reporting for large corpora
+                    if total_requests % 100 == 0:  # Every 100 requests
+                        elapsed_time = time.time() - state.get('start_time', time.time())
+                        words_per_hour = current_words / (elapsed_time / 3600) if elapsed_time > 0 else 0
+                        estimated_time_remaining = (target_words - current_words) / words_per_hour if words_per_hour > 0 else 0
+                        print(f"   📊 Milestone: {total_requests} requests, {words_per_hour:.0f} words/hour, ~{estimated_time_remaining:.1f}h remaining")
                     
                     if use_seeds:
                         print(f"   📝 Story ID: {story_metadata['story_id']}, Seeds: {seed_str}")
@@ -281,8 +347,12 @@ def main(config_path):
                     print(f"   💾 Progress saved. {current_words:,} words, ${current_cost:.4f} spent.")
                     texts_generated_since_save = 0
                 
-                # 8. Brief pause to respect API rate limits
-                time.sleep(2) # Adjust as needed
+                # 8. Adaptive rate limiting for free models
+                if "free" in config.get('model_name', '').lower():
+                    # More conservative for free models
+                    time.sleep(random.uniform(3, 7))  # 3-7 second random delay
+                else:
+                    time.sleep(2)  # Standard delay for paid models
 
     except KeyboardInterrupt:
         print("\n🛑 Generation process interrupted by user.")

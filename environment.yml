@@ -1,0 +1,21 @@
+name: mlschool-psycholinguistics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - requests
+  - pip:
+    - python-dotenv
+    - sentence-transformers
+    - plotly
+    - openai

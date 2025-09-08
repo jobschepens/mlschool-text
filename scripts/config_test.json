@@ -1,0 +1,12 @@
+{
+    "model_name": "meta-llama/llama-3.3-8b-instruct:free",
+    "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "target_word_count": 1000000,
+    "max_generation_cost": 0.10,
+    "use_seed_words": false,
+    "words_to_seed": 5,
+    "ecp_word_list_path": "../data/lexicaldecision/ecp/English Crowdsourcing Project All Native Speakers.csv",
+    "texts_per_state_save": 2,
+    "output_corpus_path": "../output/large_corpus_test.txt",
+    "state_file_path": "../output/generation_state_test.json"
+}
