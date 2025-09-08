@@ -206,6 +206,26 @@ def get_dynamic_prompt():
     
     return prompt, genre_label
 
+# --- API Key Handling ---
+def get_api_key():
+    """Get API key from environment or Colab userdata"""
+    # Try environment variable first (local/.env)
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    
+    # If not found and we're in Colab, try userdata
+    if (not api_key or api_key == "YOUR_OPENROUTER_API_KEY_HERE") and 'google.colab' in sys.modules:
+        try:
+            from google.colab import userdata
+            api_key = userdata.get('OPENROUTER_API_KEY')
+            print("🔑 API key loaded from Colab userdata")
+        except Exception as e:
+            print(f"⚠️ Could not load API key from Colab userdata: {e}")
+    
+    if not api_key or api_key == "YOUR_OPENROUTER_API_KEY_HERE":
+        raise ValueError("OPENROUTER_API_KEY not found. Please set it in .env file or Colab Secrets.")
+    
+    return api_key
+
 # --- Main Generation Logic ---
 def main(config_path):
     """Main function to run the large-scale corpus generation."""
@@ -240,10 +260,11 @@ def main(config_path):
 
     state = load_state(config['state_file_path'])
 
-    # Get API key from environment
-    api_key = os.getenv("OPENROUTER_API_KEY")
-    if not api_key or api_key == "YOUR_OPENROUTER_API_KEY_HERE":
-        print("❌ OPENROUTER_API_KEY not found or not set in .env file. Please add it to proceed.")
+    # Get API key from environment or Colab userdata
+    try:
+        api_key = get_api_key()
+    except ValueError as e:
+        print(f"❌ {e}")
         return
 
     api_config = {
