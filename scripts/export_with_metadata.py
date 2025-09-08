@@ -15,6 +15,11 @@ import pandas as pd
 import re
 from datetime import datetime
 import os
+import sys
+
+# Add project root to path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from path_utils import get_project_path, get_output_path
 
 def detect_story_boundaries(corpus_text):
     """
@@ -216,9 +221,9 @@ def main():
     print("🔍 Enhanced Corpus Export with Metadata")
     print("=" * 50)
     
-    # Configuration
-    corpus_path = "../large_corpus.txt"
-    output_dir = "../output/analyzed_corpus"
+    # Configuration using path utilities
+    corpus_path = get_output_path("large_corpus.txt")
+    output_dir = get_output_path("analyzed_corpus")
     
     if not os.path.exists(corpus_path):
         print(f"❌ Corpus file not found: {corpus_path}")
