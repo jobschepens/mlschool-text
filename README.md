@@ -153,3 +153,39 @@ Available config files for different models and scales:
 - `config_2m_llama.json` - 2M tokens using Llama model (recommended)
 - `config_2m_gpt_oss20b.json` - Alternative using GPT model
 - Create your own config file following the provided templates
+
+### Resuming Interrupted Generation
+
+The generation scripts are fully resumable! If a generation process is interrupted, simply run the same command again:
+
+#### Check Available State Files
+```bash
+python -c "
+import json, os
+state_files = [f for f in os.listdir('output/') if f.startswith('generation_state_') and f.endswith('.json')]
+print('Available state files for resuming:')
+for state_file in state_files:
+    try:
+        with open(f'output/{state_file}', 'r') as f:
+            state = json.load(f)
+        words = state.get('total_words_generated', 0)
+        requests = state.get('total_requests', 0)
+        print(f'📁 {state_file}')
+        print(f'   Progress: {words:,} words | {requests} requests')
+    except: pass
+"
+```
+
+#### Resume Generation
+Use the **exact same command** that was used originally:
+```bash
+# The script will automatically detect and continue from the existing state file
+python scripts/script-1-gen-dynamic.py --config scripts/config_2m_qwen_30b.json
+python scripts/script-1-gen.py --config scripts/config_2m_llama.json
+```
+
+**How it works:**
+- Scripts automatically detect existing state files matching the config
+- Progress is loaded: words generated, requests made, estimated cost
+- Generation continues by appending to the same corpus file
+- State is saved periodically (every 10 texts by default) for fault tolerance
