@@ -1,0 +1,18 @@
+{
+    "total_words_generated": 289,
+    "total_requests": 1,
+    "estimated_cost": 0.00018260000000000002,
+    "start_time": 1757344199.1652117,
+    "stories": [
+        {
+            "story_id": "story_0001",
+            "genre": "Fiction/Creative",
+            "seeds_used": [],
+            "word_count": 289,
+            "character_count": 1750,
+            "timestamp": "2025-09-08T17:10:04.232039",
+            "prompt_used": "Write a short, engaging creative story about a character who makes an unexpected discovery, travels to a new place, or overcomes a personal challenge. Let the story flow naturally and use descriptive language.",
+            "estimated_cost": 0.00018260000000000002
+        }
+    ]
+}

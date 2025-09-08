@@ -43,7 +43,7 @@ Follow this step-by-step progression through the notebooks and scripts:
 
 ### 2. **Generate Large Corpus**: Choose one script
 - `script-1-gen.py` - Original approach with fixed genre prompts
-- `script-1-gen-dynamic.py` - New approach with infinite prompt variety (recommended)
+- `script-1-gen-dynamic.py` - New approach with more prompt variety (recommended)
 - Or create your own version using the provided templates
 - **Important**: Use an updated config file (e.g., `config_2m_llama.json`)
 
@@ -139,14 +139,75 @@ For the complete experience and to understand the full pipeline:
 1. **Start with the basics**: Open `notebook1_llm_generation.ipynb` to understand LLM generation concepts
 
 2. **Generate a large corpus**: 
+   Run the generation scripts with configuration files that specify model, target size, and other parameters.
+   
+   **Basic syntax:**
    ```bash
-   # Choose your preferred generation approach
-   python scripts/script-1-gen-dynamic.py --config scripts/config_2m_llama.json
-   # OR
-   python scripts/script-1-gen.py --config scripts/config_2m_llama.json
+   python scripts/<script-name> --config <config-file-path>
    ```
+   
+   **Examples:**
+   ```bash
+   # Recommended: Dynamic generation with infinite prompt variety
+   python scripts/script-1-gen-dynamic.py --config scripts/config_2m_qwen_30b.json
+   
+   # Alternative: Original approach with fixed prompts
+   python scripts/script-1-gen.py --config scripts/config_2m_llama.json
+   
+   # With full Python path (useful on Windows)
+   & c:/Python313/python.exe c:/GitHub/mlschool-text/scripts/script-1-gen.py --config ./scripts/config_2m_qwen_30b.json
+   ```
+   
+   **Available config files:**
+   - `config_2m_qwen_30b.json` - 2M tokens using Qwen 30B model (free tier)
+   - `config_2m_llama.json` - 2M tokens using Llama 3.3 8B model (free tier)
+   - `config_2m_gpt_oss20b.json` - 2M tokens using GPT model
+   - Create custom configs by copying and modifying existing ones
 
 3. **Process and analyze**: Follow the notebook sequence (1b → 1c → 1d → 2) as outlined in the workflow above
+
+## Running Generation Scripts
+
+### Command Syntax
+All generation scripts use configuration files to specify their behavior:
+```bash
+python scripts/<script-name> --config <config-file-path>
+```
+
+### Platform-Specific Examples
+
+**Linux/macOS:**
+```bash
+cd mlschool-text
+python scripts/script-1-gen-dynamic.py --config scripts/config_2m_qwen_30b.json
+```
+
+**Windows (PowerShell):**
+```powershell
+cd mlschool-text
+python scripts/script-1-gen-dynamic.py --config scripts/config_2m_qwen_30b.json
+
+# Or with full Python path:
+& c:/Python313/python.exe scripts/script-1-gen.py --config ./scripts/config_2m_qwen_30b.json
+```
+
+**Windows (Command Prompt):**
+```cmd
+cd mlschool-text
+python scripts\script-1-gen-dynamic.py --config scripts\config_2m_qwen_30b.json
+```
+
+### Script Options
+
+**Recommended: `script-1-gen-dynamic.py`**
+- Infinite prompt variety using combinatorial generation
+- Eliminates genre bias from fixed prompt categories
+- More diverse vocabulary coverage
+
+**Alternative: `script-1-gen.py`**
+- Original approach with predefined genre categories
+- More predictable content distribution
+- Faster execution due to simpler prompt selection
 
 ### Configuration Files
 Available config files for different models and scales:
