@@ -6,7 +6,7 @@
 
 ## Quick Start Options
 
-### Option 1: GitHub Codespaces (Recommended for Full Development) 🚀
+### Option 1: GitHub Codespaces (will cost me money at some point) 🚀
 Click the "Open in GitHub Codespaces" badge above for:
 - **Full VS Code environment** in your browser
 - **Pre-configured Python environment** with all dependencies
@@ -14,17 +14,17 @@ Click the "Open in GitHub Codespaces" badge above for:
 - **Jupyter notebook support** built-in
 - **Free tier available** (60 hours/month for personal accounts)
 
-### Option 2: Google Colab (Recommended for Learning)
+### Option 2: Google Colab (makes it a bit cumbursome to switch between notebooks)
 Click the "Open in Colab" badge above, then:
 - Navigate to the `notebooks/` folder
 - Open either:
   - `notebook1_llm_generation.ipynb` - Generate linguistic predictors with LLMs
   - `notebook2_corpus_analysis.ipynb` - Analyze predictors vs. human reading data
 
-### Option 3: Binder
+### Option 3: Binder (takes a while to load)
 Click the "Binder" badge above for a ready-to-run environment (may take 2-3 minutes to load)
 
-### Option 4: Local Installation
+### Option 4: Local Installation (probably best)
 ```bash
 git clone https://github.com/jobschepens/mlschool-text.git
 cd mlschool-text
