@@ -91,6 +91,10 @@ All generated corpora and derived predictors are included in this repository for
 
 This allows you to run the analysis notebooks immediately without needing to generate new corpora (which can take hours and requires API keys).
 
+## AI-Assisted Development
+
+This repository was developed with assistance from AI agents, primarily using Claude, while still aiming to maintain a high quality standard. AI assistance was used for code generation and markdown writing. All content underwent review (by me) of quality and functionality, accuracy, and clarity. However, the result is still a work in progress that shows possibilities of AI asstance but also shows the need to document the development progress in more detail, implement a more rigorous review validation process, assess compliance with institutional policies, and add more detail on AI vs. human created material. 
+
 ## Project Structure
 
 The project is organized into the following directories:
