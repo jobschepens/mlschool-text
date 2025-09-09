@@ -6,22 +6,23 @@
 
 ## Quick Start Options
 
-### Option 1: GitHub Codespaces (will cost me money at some point) 🚀
-Click the "Open in GitHub Codespaces" badge above for:
+### Option 1: GitHub Codespaces 🚀 (create your own codespace using your own github account)
+Click the "Open in GitHub Codespaces" badge above to create your own codespace:
 - **Full VS Code environment** in your browser
 - **Pre-configured Python environment** with all dependencies
 - **Integrated terminal** and Git support
 - **Jupyter notebook support** built-in
-- **Free tier available** (60 hours/month for personal accounts)
+- **Free tier available** (60 hours/month per user)
+- **Your own workspace** - save work and customize as needed
 
-### Option 2: Google Colab (makes it a bit cumbursome to switch between notebooks)
+### Option 2: Google Colab (makes it a bit cumbursome to switch between notebooks, requires google account)
 Click the "Open in Colab" badge above, then:
 - Navigate to the `notebooks/` folder
 - Open either:
   - `notebook1_llm_generation.ipynb` - Generate linguistic predictors with LLMs
   - `notebook2_corpus_analysis.ipynb` - Analyze predictors vs. human reading data
 
-### Option 3: Binder (takes a while to load)
+### Option 3: Binder (takes a while to load, no account necessary)
 Click the "Binder" badge above for a ready-to-run environment (may take 2-3 minutes to load)
 
 ### Option 4: Local Installation (probably best)
