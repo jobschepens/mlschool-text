@@ -23,15 +23,17 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "python.terminal.activateEnvironment": true,
+        "python.pythonPath": "/usr/local/bin/python",
         "jupyter.askForKernelRestart": false,
         "jupyter.interactiveWindow.textEditor.executeSelection": true,
+        "jupyter.defaultKernel": "python",
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000
       }
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt && echo '✅ Environment setup complete! Ready for computational psycholinguistics analysis.'",
+  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt && echo '✅ Environment setup complete! Ready for computational psycholinguistics analysis.'",
   
   "remoteUser": "vscode",
   "workspaceFolder": "/workspaces/mlschool-text",
