@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "mlschool-text",
+			"path": "."
+		},
+		{
+			"name": "summerschool",
+			"path": "G:/My Drive/sci/CDP/summerschool"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "summerschool"
+	}
+}
